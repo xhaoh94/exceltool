@@ -47,8 +47,8 @@ func (f *TMainForm) newLeftGpBox() {
 	btnFind.SetOnClick(onBtnFindClick)
 
 	chkListBox = vcl.NewCheckListBox(gpBox)
-	chkListBox.SetBounds(10, 30, 400, 480)
 	chkListBox.SetParent(gpBox)
+	chkListBox.SetBounds(10, 30, 400, 480)
 
 	btnAllSelect = vcl.NewButton(gpBox)
 	btnAllSelect.SetParent(gpBox)
